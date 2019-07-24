@@ -8,6 +8,4 @@ defmodule Generator do
 		ast = Ast.gen_ast(parsed_before, parsed_after)
 		IO.inspect(ast)	
 	end
-
-	
 end
